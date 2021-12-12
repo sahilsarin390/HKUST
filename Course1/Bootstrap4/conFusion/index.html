@@ -42,13 +42,16 @@
                 <div class="col-12 col-sm align-self-center">
                     <img src="img/logo.png" class="img-fluid">
                 </div>
+                <div class="col-12 col-md-3 align-self-center">
+                    <button type="submit" class="btn btn-primary bg-warning mb-3 text-dark btn-block"><a href="#reservation" class="text-dark"><strong>Reserve Table</strong></a></button>
+                </div>
             </div>
         </div>
     </header>
 
     <div class="container">
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+            <div class="col col-sm-4 order-sm-last col-md-2">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
@@ -65,19 +68,25 @@
             </div>
         </div>
 
-
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 col-md-3">
+            <div class="col-12 col-sm-4 order-sm-first col-md-2">
                 <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <div class="col col-sm order-sm-last col-md">
+                <div class="media">
+                    <div class="media-body col-10 order-sm-first">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block order-sm-first">Featuring mouthwatering combinations with a choice of five different salads, six enticing
+                            appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99
+                            per person </p>
+                    </div>
+                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
             </div>
         </div>
 
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+            <div class="col-12 col-sm-4 order-sm-last col-md-2">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm order-sm-first col-md">
@@ -92,6 +101,56 @@
                             creating mouthwatering Indo-Italian fusion experiences.
                         </p>
                     </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center col-12 col-sm-12 col-md-6">
+            <div class="card">
+                <h3 class="card-header bg-warning mb-3 text-white">Reserve a Table</h3>
+                <div class="card-body">
+                    <dl class="row">
+                        <dd class="col-12 col-md-3">Number of Guests</dd>
+                        <dd class="col-9 col-sm-9 align-items-start">
+                            <div class="form-radio">
+                                <input type="radio" name="numbers" class="form-radio-input" value="option1" checked>
+                                <label class="form-radio-label">1 </label>
+                            
+                                <input type="radio" name="numbers" class="form-radio-input" value="option1">
+                                <label class="form-radio-label">2 </label>
+                            
+                                <input type="radio" name="numbers" class="form-radio-input" value="option1">
+                                <label class="form-radio-label">3 </label>
+                            
+                                <input type="radio" name="numbers" class="form-radio-input" value="option1">
+                                <label class="form-radio-label">4 </label>
+                            
+                                <input type="radio" name="numbers" class="form-radio-input" value="option1">
+                                <label class="form-radio-label">5 </label>
+                            
+                                <input type="radio" name="numbers" class="form-radio-input" value="option1">
+                                <label class="form-radio-label">6 </label>
+                            </div>
+                        </dd>
+                        <dd class="col-12 col-md-3">Date and Time</dd>
+                        <dd class="col-9">
+                            <div class="form-group row">
+                                <div class="col-12 col-md-6">
+                                    <input type="text" class="form-control" id="Date" name="Date" placeholder="Date">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <input type="text" class="form-control" id="Time" name="Time" placeholder="Time">
+                                </div>
+                            </div>
+                        </dd>
+                        <dd class="col-12 col-sm-6 col-md-7" id="reservation">
+                            <div class="form-group row">
+                                <div class="offset-md-6">
+                                    <button type="submit" class="btn btn-primary"><strong>Reserve</strong></button>
+                                </div>
+                            </div>
+                        </dd>
+                    </dl>
                 </div>
             </div>
         </div>
